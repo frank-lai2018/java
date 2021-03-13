@@ -2,6 +2,7 @@ package thread;
 
 /**
  * 一般生產者消費者例子，生產者產出一個產品，等待產品被消費者使用後在產出一個商品
+ * 此種方式，執行越多執行緒會卡死，因為notify會隨機喚醒一條wait的執行緒，最後會變成大家都在等待
  * */
 public class ProducerAndConsumerEx2 {
 	
