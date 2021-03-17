@@ -27,6 +27,5 @@ public class ComparatorLambdaTest {
 		apples.sort(byColorLambda);
 		System.out.println(apples);
 		
-		Predicate<T>
 	}
 }
