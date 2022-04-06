@@ -7,7 +7,7 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
 
