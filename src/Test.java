@@ -1,5 +1,6 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.net.InetAddress;
 
 public class Test {
 
@@ -8,5 +9,6 @@ public class Test {
 		BigDecimal setScale = bd.setScale(2, RoundingMode.FLOOR);
 		System.out.println(bd);
 		System.out.println(setScale);
+		
 	}
 }
